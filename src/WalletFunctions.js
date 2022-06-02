@@ -125,7 +125,7 @@ export const WalletFunctions = () => {
       <div>
         <button onClick={login}>Sign in with WalletConect</button>
         <button onClick={signout}>log out</button>
-        <button onClick={() => handleSubmit()}>setsaleItem</button>
+        <button onClick={() => handleSubmit()}>set sale Item</button>
       </div>
     </div>
   );
