@@ -35,7 +35,7 @@ export const WalletFunctions = () => {
           alert(erorr)
         },
         provider: "walletconnect",
-        signingMessage: "Mintzilla Platform"
+        signingMessage: "Custom Platform"
       })
         .then(function (user) {
           console.log(user?.get("ethAddress"));
